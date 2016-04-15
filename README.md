@@ -18,10 +18,10 @@ halt "rogue" pull requests before they're merged into the master branch.
 Zappr Features:
 
 - you can apply it and enable/disable approval checks per repository, with the simple flip of a toggle
-- you can configure what counts an approval and what doesn’t
+- you can configure what counts as an approval and what doesn’t
 - via a text-based user configuration file that you insert in your repository,
   you can override GitHub's default settings and endow users with PR approval authorization
-  by inviting them by name, organization and/or contributor status.
+  by inviting them by name, organization, and/or contributor status.
 
 ### Why We Developed Zappr
 
@@ -35,7 +35,7 @@ for project developers who want contributors to follow certain guidelines. This 
 #### Compliance
 
 We are proponents of being able to do as much work as possible in GitHub, using GitHub. When working with
-compliance requirements, howevr, this can get tricky: how can devs employ the four-eyes principle in GitHub?
+compliance requirements, however, this can get tricky: how can devs employ the four-eyes principle in GitHub?
 Zappr aims to address this by applying a review/approval function to project workflow at a critical point of transition.
 
 #### No More Bottlenecks
